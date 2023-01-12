@@ -9,6 +9,7 @@ jobs:
     - name: pull latest and remove old file from repo
       run: |
         git config --global user.name "1Timo1"
+        git config --global user.email filsinger.t@gmail.com
         git config pull.rebase false
         git pull
         rm -f BingoRPGomme.zip
